@@ -159,7 +159,7 @@ REGEX
 
 -   [Pluralsight Course](https://www.pluralsight.com/courses/apex-absolute-beginner-guide-coding-salesforce) - A crash course on how to code Apex taught by four time Salesforce MVP David Liu.
 
--   [Focus on Force](https://focusonforce.com/) - This inexpensive learning resource provides platform courses, study guides, and practice exams for several certification paths including Admin, Advanced Admin, App Builder, Platform Developer I, Platform Developer II, among others.
+-   [Focus on Force](https://focusonforce.com/) - This inexpensive learning resource provides platform courses, study guides, and practice exams for several certification paths including Admin, Advanced Admin, App Builder, Platform Developer I, Platform Developer II, others.
 
 ------------------------------------------------------------------------
 
