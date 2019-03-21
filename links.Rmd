@@ -1,0 +1,222 @@
+---
+title: "Links & Resources"
+output: 
+    html_document:
+      toc: true
+      toc_float: true
+    toc_depth: 4
+    number_sections: true
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE,
+                      collapse = TRUE)
+
+
+
+pacman::p_load(companycolors, ggplot2, patchwork, emo)
+```
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## R
+
+* [Syntax Cheat Sheet]
+
+* [Google R Style Guide](https://google.github.io/styleguide/Rguide.xml)
+
+* [R for Data Science](http://r4ds.had.co.nz/)
+
+* [Advanced R]
+
+* [Tidy Tuesday]
+
+* [Free books](https://bookdown.org/)
+
+*** 
+
+### Tips and Tricks
+
+* [Animated GIFs from @nic_crane](https://twitter.com/i/moments/1065910383670685696)
+
+* [Paul Vanderlaken](https://paulvanderlaken.com/2018/05/21/r-tips-and-tricks/)
+
+***
+
+### Lists of my lists
+
+* [The R Awesome List](https://github.com/qinwf/awesome-R#readme)
+
+* [Suzan Baert Github](https://github.com/suzanbaert/Resources_and_Bookmarks)
+
+***
+### I should learn more about this:
+
+* [New text editor (mac)](https://atom.io/)
+
+* [Alexa](https://github.com/miguelmota/awesome-amazon-alexa#readme)
+
+* [RShiny](https://github.com/grabear/awesome-rshiny)
+
+* [The Definitive Bookdown Guide](https://bookdown.org/yihui/rmarkdown/)
+
+* [Blogdown Guide](https://bookdown.org/yihui/blogdown/)
+
+* Functions: monday, separate_rows, lintr
+
+* broom::tidy() - formats stats stuff
+
+* stopifnot() - throwing errors for bad function inputs
+
+* [skimr::skim_tee](https://twitter.com/CMastication/status/1093509987538821120)
+
+* [Bootswatch](https://bootswatch.com/lumen/)
+
+***
+
+### R Walkthroughs & Tutorials
+
+* [R for Cats](https://rforcats.net/)
+
+* [Jenny Bryan's Purrr Tutorials](https://jennybc.github.io/purrr-tutorial/)
+
+* [More Purrr](https://towardsdatascience.com/functional-programming-in-r-with-purrr-469e597d0229)
+
+* [Dplyr](https://suzan.rbind.io/2018/01/dplyr-tutorial-1/)
+
+* [Pimp my RMD](https://holtzy.github.io/Pimp-my-rmd/)
+
+
+### R Videos
+
+* [RMarkdown for the Easily Distracted](https://resources.rstudio.com/rstudio-conf-2019/the-lazy-and-easily-distracted-report-writer-using-rmarkdown-and-parameterised-reports) - Tips for parameterizing markdown reports for multiple audiences + easy updating
+
+* [Magical R Packages](https://resources.rstudio.com/rstudio-conf-2019/our-colour-of-magic-the-open-sourcery-of-fantastic-r-packages) - What it means to make R packages `r emo::ji("smile")` ✨magical
+
+* [Building an A/B Testing System](https://resources.rstudio.com/rstudio-conf-2019/building-an-ab-testing-analytics-system-with-r-and-shiny)
+
+***
+
+### Packages
+
+* Shortcuts
+
+* Roxygen2 codes
+
+***
+
+## Github
+
+* [Github Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet#readme)
+
+* [Happy Git with R](http://happygitwithr.com/)
+
+* [YouTube intros to R+Git](https://www.youtube.com/watch?v=HVsySz-h9r4&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx)
+
+* [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials/git-stash)
+
+* [Git in Practice](https://github.com/GitInPractice/GitInPractice#readme)
+
+***
+
+## SQL
+
+## REGEX
+
+## APIs & JSON
+
+* [Roll your HTTP headers](https://rud.is/b/2019/03/05/heads-up-roll-your-own-http-headers-investigations-with-the-hdrs-package/) - Use hdrs R package to grab http headers from a URL and take a look at them.
+
+* [HTTP Status Codes](https://httpstatuses.com/)
+
+* [10 Essentials for Good API Documentation](https://alistapart.com/article/the-ten-essentials-for-good-api-documentation)
+
+* [API University](https://www.programmableweb.com/api-university)
+
+* [JSON Schema](http://json-schema.org/)
+
+* [Google API Style Guide](https://cloud.google.com/apis/design/)
+
+* [The JSON Awesome List](https://github.com/burningtree/awesome-json#readme)
+
+***
+
+## Salesforce
+
+* [The Salesforce Awesome List](https://github.com/mailtoharshit/awesome-salesforce)
+
+### Reference
+
+* [Date Literal Reference Guide](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_dateformats.htm) - SOQL queries + relative range of time, such as last month, this week, or next year.
+
+* [Relative Date Filter Reference Guide](https://help.salesforce.com/articleView?id=filter_dates_relative.htm) - Syntax for filtering on relative date fields in reporting.
+
+* [Object Key Prefix Guide](https://www.salesforceben.com/salesforce-object-key-prefix-list/) - Cheat sheet for the first 3 characters of the sfid (ex: 006 = opportunities).
+
+### Tools
+
+* [Workbench](https://github.com/ryanbrainard/forceworkbench)- Web-based suite of tools designed for administrators and developers to interact with Salesforce.com organizations via the Force.com APIs.
+
+* [Data Loader](https://developer.salesforce.com/page/Data_Loader) - Is an easy to use graphical tool that helps you to get your data into Salesforce objects.
+
+* [Salesforce IDs converter](https://www.adminbooster.com/tool/15to18)- Convert IDs on 15 characters to IDs on 18 characters.
+
+* [Awesome Salesforce Broswer Extensions](https://github.com/mailtoharshit/awesome-browser-extensions-for-salesforce)
+
+* [Apex Metadata API](https://github.com/financialforcedev/apex-mdapi) - Apex Wrapper for the Salesforce Metadata API >
+    
+* [Salesforce to Github ](https://github.com/SalesforceFoundation/sfdo-github) - Github API client in Apex for Force.com <br/>
+
+* [Salesforce Git Repo](https://github.com/forcedotcom) - Grab all latest salesforce open source projects here, you will find awesome projects, framework, libraries.
+
+
+### Online Courses
+
+* [Udacity Course](https://www.udacity.com/course/intro-to-point-click-app-development--ud162) - This class teaches you how to build powerful web and mobile apps and host them in the cloud, without writing a line of code.
+
+* [Pluralsight Course](https://www.pluralsight.com/courses/apex-absolute-beginner-guide-coding-salesforce) - A crash course on how to code Apex taught by four time Salesforce MVP David Liu.
+
+* [Focus on Force](https://focusonforce.com/) - This inexpensive learning resource provides platform courses, study guides, and practice exams for several certification paths including Admin, Advanced Admin, App Builder, Platform Developer I, Platform Developer II, among others.
+
+***
+
+## Colors
+
+* [Palette Generator](https://coolors.co/) [And here](https://color.hailpixel.com)
+
+***
+
+## Misc
+
+* [The Awesome List](https://github.com/sindresorhus/awesome)
+** [Search It](https://awesome-indexed.mathew-davies.co.uk/) and [here](https://awesomelists.top/)
+
+* [OKRs](https://github.com/domenicosolazzo/awesome-okr#readme)
+
+* [Beginner Projects](https://github.com/MunGell/awesome-for-beginners#readme)
+
+* [Stock Resources](https://github.com/neutraltone/awesome-stock-resources)
+
+* [Copy Emojis](https://emojipedia.org)
+
+* [Icons](https://fontawesome.com)
+
+***
+
+## To Do: 
+* Charts I like + code
+* Link to syntax reminders
+* roxygen2 documentation
+* Figure out how to make the toc collapsable
+* Cool datasets
+* Graphs
+* Colors
+    - [Colorbrewer2](http://colorbrewer2.org/)
+    - https://github.com/Siddharth11/Colorful#readme
+    - [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html): Best for maps
+    - [LOLColors](https://www.webdesignrankings.com/resources/lolcolors/)
