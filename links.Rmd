@@ -42,7 +42,7 @@ knitr::opts_chunk$set(
 
 ### Tips and Tricks
 
-* [Animated GIFs from @nic_crane](https://twitter.com/i/moments/1065910383670685696)
+* [Animated GIFs from `@nic_crane`](https://twitter.com/i/moments/1065910383670685696)
 
 * [Paul Vanderlaken](https://paulvanderlaken.com/2018/05/21/r-tips-and-tricks/)
 
@@ -62,6 +62,8 @@ knitr::opts_chunk$set(
 * [Alexa](https://github.com/miguelmota/awesome-amazon-alexa#readme)
 
 * [RShiny](https://github.com/grabear/awesome-rshiny)
+
+* [R, plotly, shiny online book](https://plotly-r.com/introduction.html): Interactive web-based data visualization
 
 * [The Definitive Bookdown Guide](https://bookdown.org/yihui/rmarkdown/)
 

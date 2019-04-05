@@ -1,14 +1,20 @@
 ---
 title: "Links & Resources"
 output: 
-    html_document:
-      toc: true
-      toc_float: true
-    toc_depth: 4
-    number_sections: true
+    rmarkdown::github_document
+
 ---
 
+## Table of Contents
 
+* [R](#R)
+* [Github](#Github)
+* [APIs & JSON](#APIs)
+* [Salesforce](#SFDC)
+* [Misc](#Misc)
+* [To Dos](#ToDos)
+
+<a name="R"></a>
 ## R
 
 * [Syntax Cheat Sheet]
@@ -87,6 +93,7 @@ output:
 
 ***
 
+<a name="Github"></a>
 ## Github
 
 * [Github Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet#readme)
@@ -105,6 +112,7 @@ output:
 
 ## REGEX
 
+<a name="APIs"></a>
 ## APIs & JSON
 
 * [Roll your HTTP headers](https://rud.is/b/2019/03/05/heads-up-roll-your-own-http-headers-investigations-with-the-hdrs-package/) - Use hdrs R package to grab http headers from a URL and take a look at them.
@@ -123,6 +131,7 @@ output:
 
 ***
 
+<a name="SFDC"></a>
 ## Salesforce
 
 * [The Salesforce Awesome List](https://github.com/mailtoharshit/awesome-salesforce)
@@ -153,6 +162,7 @@ output:
 
 ***
 
+<a name="Misc"></a>
 ## Misc
 
 * [The Awesome List](https://github.com/sindresorhus/awesome)
@@ -166,6 +176,7 @@ output:
 
 ***
 
+<a name="ToDos"></a>
 ## To Do: 
 * Charts I like + code
 * Link to syntax reminders
